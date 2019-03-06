@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ["lib"]
   spec.required_ruby_version = '>= 2.2.0'
+  spec.add_dependency 'pry'
   spec.add_dependency 'activesupport'
   spec.add_dependency 'httparty'
   spec.add_development_dependency "bundler", "~> 1.16"
